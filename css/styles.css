@@ -14,3 +14,74 @@
     --main-line-color: hsl(215, 32%, 27%);
 }
 
+body {
+    background-color: var(--main-bg-color);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+    max-width: 1440px;
+    line-height: 1.2;
+    margin: 30px;
+}
+
+input {
+    border-radius: 20px;
+}
+
+.header {
+    display: grid;
+    grid-column: 2/3;
+}
+
+/* .nav .profile {
+    display: flex;
+    gap: 10px;
+} */
+
+.nav {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 30px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns:repeat(4, 2fr);
+}
+
+.menu .menu-profile {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    width: 75px;
+    height: 30px;
+}
+
+.sidebar {
+    display: grid;
+    grid-row: 1/3;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: repeat(1fr, 1fr);
+    gap: 10px;
+}
+
+.project {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.treading {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
