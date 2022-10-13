@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,3 +13,4 @@
     --main-btn-color: hsl(178, 100%, 50%);
     --main-line-color: hsl(215, 32%, 27%);
 }
+
