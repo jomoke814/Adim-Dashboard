@@ -11,7 +11,7 @@ The challenge is build a full dashboard design using CSS Grid for majority of th
 - CSS Grid
 
 ### Live preview link for the project
-- Live site:
+- Live site: https://jomoke814.github.io/Admin-Dashboard/
 - Solution URL: https://github.com/jomoke814/Admin-Dashboard
 
 ### The desired outcome[screenshots]

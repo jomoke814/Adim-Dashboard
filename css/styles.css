@@ -265,6 +265,7 @@ hr {
     color: var(--main-btn-color);
 }
 
+/* media query */
 @media(max-width: 768px) {
     .header {
         display: flex;
