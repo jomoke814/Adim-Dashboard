@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Outfit:wght@300;400;600&display=swap');
 
 * {
     box-sizing: border-box;
@@ -16,6 +17,7 @@
 
 body {
     background-color: var(--main-bg-color);
+    font-family: 'Outfit', sans-serif;
     color: var(--main-text-color);
     display: flex;
     flex-direction: column;
@@ -28,7 +30,7 @@ p {
 
 h1 {
     color: var(--main-heading-color);
-    font-family: ;
+    font-family: 'Fraunces', serif;
     font-size: 2rem;
 }
 
@@ -42,14 +44,22 @@ h1 {
 
 h2 {
     color: var(--main-heading-color);
+    font-family: 'Fraunces', serif;
+    font-weight: 300;
 }
 
 h3 {
     color: var(--main-heading-color);
+    font-family: 'Fraunces', serif;
+    font-size: small;
+    font-weight: 200;
 }
 
 h4 {
     color: var(--main-heading-color);
+    font-family: 'Fraunces', serif;
+    font-size: smaller;
+    font-weight: 300;
 }
 
 .container {
@@ -113,6 +123,7 @@ input {
 }
 
 button {
+    background-color: var(--main-btn-color);
     border: none;
     border-radius: 10px;
     width: 75px;
@@ -157,6 +168,8 @@ button {
     grid-template-rows: 200px;
     padding: 10px;
     border-radius: 10px;
+    border-left-style: solid;
+    border-left-color:var(--main-btn-color) ;
 }
 
 .announcement  .announcement-card{
