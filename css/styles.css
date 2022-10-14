@@ -71,7 +71,7 @@ h4 {
     margin: 30px;
 }
 
-img {
+.profile img {
     border: 2px solid var(--main-line-color);
     border-radius: 50%;
     height: 60px;
@@ -84,6 +84,16 @@ img {
 input {
     border-radius: 20px;
     height: 40px;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+    border: 1.5px solid var(--main-btn-color) ;
+}
+
+input::placeholder {
+    text-align: center;
 }
 
 .header {
@@ -109,7 +119,6 @@ input {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* grid-template-columns:repeat(2, 1fr); */
     gap: 35px;
     align-items: center;
     padding: 10px;
@@ -138,6 +147,35 @@ button {
     grid-template-rows: auto auto 1fr;
     grid-row: 1/3;
     padding: 10px;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: underline;
+}
+
+.options {
+    margin: 30px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    gap: 10px;
+}
+
+.option:hover {
+    color: var(--main-btn-color);
+    text-decoration: underline;
+    transition: all ease-out 3sec;
+}
+
+img:hover {
+    background-color: var(--main-btn-color);
+    border-radius: 10px;
 }
 
 .content {
