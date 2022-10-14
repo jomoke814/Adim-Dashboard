@@ -16,6 +16,40 @@
 
 body {
     background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+h1 {
+    color: var(--main-heading-color);
+    font-family: ;
+    font-size: 2rem;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.description .title {
+    font-size: 14px;
+}
+
+h2 {
+    color: var(--main-heading-color);
+}
+
+h3 {
+    color: var(--main-heading-color);
+}
+
+h4 {
+    color: var(--main-heading-color);
 }
 
 .container {
@@ -27,34 +61,55 @@ body {
     margin: 30px;
 }
 
+img {
+    border: 2px solid var(--main-line-color);
+    border-radius: 50%;
+    height: 60px;
+}
+
+.image {
+    height: 45px;
+}
+
 input {
     border-radius: 20px;
+    height: 40px;
 }
 
 .header {
     display: grid;
+    align-items: center;
     grid-column: 2/3;
 }
-
-/* .nav .profile {
-    display: flex;
-    gap: 10px;
-} */
 
 .nav {
     display: grid;
     grid-template-columns: 3fr 2fr;
     gap: 30px;
+    padding: 10px;
+}
+
+.nav .profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .menu {
-    display: grid;
-    grid-template-columns:repeat(4, 2fr);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* grid-template-columns:repeat(2, 1fr); */
+    gap: 35px;
+    align-items: center;
+    padding: 10px;
 }
 
-.menu .menu-profile {
+.menu-profile {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
 }
 
 button {
@@ -65,8 +120,13 @@ button {
 }
 
 .sidebar {
+    background-color: var(--main-sidebar-color);
+    border-radius: 10px;
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr;
     grid-row: 1/3;
+    padding: 10px;
 }
 
 .content {
@@ -77,11 +137,58 @@ button {
 }
 
 .project {
+    display: grid;
     grid-column: 1/2;
     grid-row: 1/3;
+    padding: 10px;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.project-container .card {
+    background-color: var(--main-sidebar-color);
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 200px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.announcement  .announcement-card{
+    background-color: var(--main-sidebar-color);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+hr {
+    background-color: var(--main-line-color);
+    border: none;
+    height: 1px;
+    margin: 10px;
 }
 
 .treading {
     grid-column: 2/3;
     grid-row: 2/3;
 }
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-sidebar-color);
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.profile-1 {
+    display: flex;
+    gap: 10px;
+}
+
+
