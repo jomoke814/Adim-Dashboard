@@ -178,6 +178,10 @@ img:hover {
     border-radius: 10px;
 }
 
+.icons {
+    height: 20px;
+}
+
 .content {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -208,6 +212,12 @@ img:hover {
     border-radius: 10px;
     border-left-style: solid;
     border-left-color:var(--main-btn-color) ;
+}
+
+.git-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
 }
 
 .announcement  .announcement-card{
