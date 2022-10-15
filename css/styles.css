@@ -68,15 +68,9 @@ h4 {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 4fr;
-    max-width: 1440px;
     line-height: 1.2;
     margin: 30px;
     padding: 5px;
-    background: var(--main-container-color);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    box-shadow: var(--main-box-shadow);
-    backdrop-filter: blur(2px);
 }
 
 .profile img {
@@ -114,6 +108,7 @@ input::placeholder {
     display: grid;
     grid-template-columns: 3fr 2fr;
     gap: 30px;
+    align-items: center;
     padding: 10px;
 }
 
